@@ -1,6 +1,6 @@
 # Aria Agent Blueprints & Production Reference Skills
 
-**21 production-grade agent skills (`SKILL.md`), reference implementations, and deterministic operational tools built and operated by [Aria Technology Group](https://www.ariawave.tech).**
+**22 production-grade agent skills (`SKILL.md`), reference implementations, and deterministic operational tools built and operated by [Aria Technology Group](https://www.ariawave.tech).**
 
 Operated across **1.55B+ cumulative agent tokens**, **743+ working sessions**, and **430+ operational skills** across multi-profile Hermes Agent environments, commercial real estate underwriting, 60GHz millimeter-wave motorsport networks, enterprise telecom audits, and physical security deployments.
 
@@ -24,7 +24,7 @@ cp -r skills/* ~/.hermes/skills/
 
 ---
 
-## 21 Production Reference Skills & Verification Tools
+## 22 Production Reference Skills & Verification Tools
 
 | # | Skill Directory | Reference CLI Tool | Domain & Deterministic Verification Scope |
 |---|---|---|---|
@@ -49,6 +49,7 @@ cp -r skills/* ~/.hermes/skills/
 | 19 | [`skills/invoice-qbo-time-reconciler`](skills/invoice-qbo-time-reconciler) | `billing_reconciler.py` | **Engineering Time & QBO Reconciler:** Ticket/commit worklog reconciler, retainer burn-down calculator, hardware vs. labor categorizer, and draft-only QBO builder. |
 | 20 | [`skills/satellite-change-detection-gis`](skills/satellite-change-detection-gis) | `geospatial_tile_calc.py` | **Satellite & Aerial Change Detection:** Web Mercator XYZ slippy-map tile calculator, Ground Sample Distance (GSD) verifier, and roof/shoreline delta analyzer. |
 | 21 | [`skills/php2shell-vulnerability-scanner`](skills/php2shell-vulnerability-scanner) | `php2shell_scanner.py` | **PHP2Shell Readiness & Mitigation Scanner (`CVE-2026-109618` / `CVE-2026-109619`):** Defensive PHP runtime/container/manifest version verifier (`8.5.12`/`8.4.27`/`8.3.36`/`8.2.35`), Apache `mod_php` & `RLimitMEM` hazard detector, `.htaccess`/INI override auditor, and `php.d` drop-in mitigation generator. |
+| 22 | [`skills/compliance-stack-hardening`](skills/compliance-stack-hardening) | `compliance_compose_auditor.py` | **SOC 2 / ISO 27001 Compliance & Billing Stack Hardening:** Docker Compose `127.0.0.1` binding auditor (`CC6.1`), debug-flag detector (`CC7.2`), `@sha256` digest pin verifier (`CC8.1`), log rotation checker (`A1.2`), and reverse-proxy header verifier. |
 
 ---
 
