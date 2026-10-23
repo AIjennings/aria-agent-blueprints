@@ -1,9 +1,9 @@
 # Aria Agent Blueprints & Production Reference Skills
 
-**22 production-grade agent skills (`SKILL.md`), reference implementations, and deterministic operational tools built and operated by [Aria Technology Group](https://www.ariawave.tech).**
+**23 production-grade agent skills (`SKILL.md`), reference implementations, and deterministic operational tools built and operated by [Aria Technology Group](https://www.ariawave.tech).**
 
 - **Live Daily Agent Console & Interactive Trace Simulator:** [https://www.ariawave.tech/services/wire-agents](https://www.ariawave.tech/services/wire-agents)
-- **Interactive Blueprint Workbench (All 22 Systems):** [https://www.ariawave.tech/resources](https://www.ariawave.tech/resources)
+- **Interactive Blueprint Workbench (All 23 Systems):** [https://www.ariawave.tech/resources](https://www.ariawave.tech/resources)
 - **Live JSON Telemetry & Skill Manifest API:** [https://www.ariawave.tech/api/agents/daily-pulse](https://www.ariawave.tech/api/agents/daily-pulse)
 
 Operated across **1.55B+ cumulative agent tokens**, **743+ working sessions**, and **433+ operational skills** across multi-profile Hermes Agent environments, commercial real estate underwriting, 60GHz millimeter-wave motorsport networks, enterprise telecom audits, and physical security deployments.
@@ -12,7 +12,7 @@ Operated across **1.55B+ cumulative agent tokens**, **743+ working sessions**, a
 
 ## Quick Start & One-Command Self-Test
 
-Every reference skill in this repository includes a zero-dependency (Python 3.10+ standard library) deterministic verification tool with a built-in `--selftest` suite (`22/22 PASS`):
+Every reference skill in this repository includes a zero-dependency (Python 3.10+ standard library) deterministic verification tool with a built-in `--selftest` suite (`23/23 PASS`):
 
 ```bash
 git clone https://github.com/AIjennings/aria-agent-blueprints.git
@@ -28,10 +28,11 @@ cp -r skills/* ~/.hermes/skills/
 
 ---
 
-## 22 Production Reference Skills & Interactive Blueprints
+## 23 Production Reference Skills & Interactive Blueprints
 
 | # | Skill Directory | Reference CLI Tool | Live Interactive Blueprint | Domain & Deterministic Verification Scope |
 |---|---|---|---|---|
+| 0 | [`skills/metacognition-engine`](skills/metacognition-engine) | `metacognition_auditor.py` | [Interactive Blueprint ↗](https://www.ariawave.tech/open-source) | **AriaWave METACOGNITION™ (v1.0):** Self-auditing recursive agent harness, Epistemic Confidence & Entropy Firewall (`ECEF`), Read-Live/Write-Draft MCP Cleanroom Gate (`HMAC-SHA256`), Anti-Amnesia Loop Detector & `180KB` Rolling Context Slimmer, and Pre-Flight Soft-404 Link Verifier. |
 | 1 | [`skills/mmwave-vision-mesh-planner`](skills/mmwave-vision-mesh-planner) | `mmwave_network_planner.py` | [Interactive Blueprint ↗](https://www.ariawave.tech/resources/mmwave-vision-mesh-planner) | **60GHz mmWave & Vision AI:** Friis path loss, oxygen/rain attenuation, 1st Fresnel zone clearance, EN 62676-4 DORI camera distances, and 3D Google Earth KML generator (deployed at M1 Concourse). |
 | 2 | [`skills/siklu-multihaultg-mesh-ops`](skills/siklu-multihaultg-mesh-ops) | `siklu_ipv6_bridge.py` | [Interactive Blueprint ↗](https://www.ariawave.tech/resources/siklu-multihaultg-ipv6-bridge) | **Siklu MultiHaul TG Mesh Ops:** IEEE EUI-64 `fe80::` link-local calculator from chassis MAC, V100 sector-to-port mapper, and IPv4-to-IPv6 TCP bridge over 5G Tailscale jumpboxes. |
 | 3 | [`skills/hid-access-control-provisioning`](skills/hid-access-control-provisioning) | `wiegand_badge_analyzer.py` | [Interactive Blueprint ↗](https://www.ariawave.tech/resources/hid-access-control-provisioning) | **HID Physical Access Control:** Wiegand 26-bit (H10301) even/odd parity bit encoder/decoder and 125kHz (`009P`) vs. Seos (`900P`) reader carrier diagnostics. |

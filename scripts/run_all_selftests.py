@@ -33,6 +33,7 @@ SCRIPTS = [
     "skills/satellite-change-detection-gis/geospatial_tile_calc.py",
     "skills/php2shell-vulnerability-scanner/php2shell_scanner.py",
     "skills/compliance-stack-hardening/compliance_compose_auditor.py",
+    "skills/metacognition-engine/metacognition_auditor.py",
 ]
 
 
